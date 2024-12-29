@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: azure;
+        border-radius: 5px;
+
+    }
+    .page-name{
+        padding-left: 10%;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .services{
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 10%;
+        gap: 50px;
+    }.about{
+        font-weight: 500;
+        font-size: 20px;
+    }.contact{
+        font-weight: 500;
+        font-size: 20px;
+    }a{
+        text-decoration: none;
+        color: black;
+    }
+</style>
+<body>
+    <div class="nav">
+        <div class="page-name">About</div>
+        <div class="services">
+            <div class="about"><a href="http://localhost:3000/">Home</a></div>
+            <div class="contact"><a href="http://localhost:3000/contact">Contact</a></div>
+        </div>
+    </div>
+</body>
+</html>
