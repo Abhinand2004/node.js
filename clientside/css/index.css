@@ -1,0 +1,112 @@
+/* @font-face {
+    font-family: "font1";
+    src: url("../fonts/Roboto\ \(1\)/Roboto-Regular.ttf");
+  }
+  
+ */
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 100px;
+    background-color: rgb(168, 173, 173);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}nav button{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+}nav button a{
+    text-decoration: none;
+    color: red;
+}
+
+.mainside{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.card {
+    width: 280px; 
+    height: 380px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    margin: 20px; 
+    font-family: 'Arial', sans-serif; 
+}
+
+.imagediv {
+    height: 120px; 
+    background-color: #f7f7f7; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagediv img {
+    border-radius: 50%; 
+    width: 80px; 
+    height: 80px; 
+    object-fit: cover; 
+}
+
+.bottom {
+    padding: 15px; 
+    background-color: #ffffff; 
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.id, .name, .Desig {
+    margin: 2px 0; 
+    font-size: 14px; 
+    color: #333; 
+}
+
+.name {
+    font-weight: bold; 
+    font-size: 16px; 
+}
+
+.Desig {
+    font-style: italic; 
+    color: #555; 
+}
+
+.btn {
+    text-align: center; 
+}
+
+.btn button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-size: 14px; 
+}
+
+.btn button:hover {
+    background-color: #0056b3; 
+}

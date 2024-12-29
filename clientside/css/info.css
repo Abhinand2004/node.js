@@ -1,0 +1,98 @@
+/* info.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.details {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+}
+
+.leftside {
+    padding: 20px;
+    background-color: #007BFF; 
+    color: white;
+    text-align: center;
+}
+
+.leftside img {
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+}
+
+.rightside {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.rightside div {
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.emolyiid {
+    font-weight: bold;
+    color: #333; 
+}
+
+.name {
+    font-size: 1.5em; 
+    color: #333;
+}
+
+.designation,
+.experience,
+.salary,
+.email,
+.phonenumber {
+    color: #666; 
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .details {
+        flex-direction: column; 
+    }
+
+    .leftside, .rightside {
+        text-align: center;
+    }
+}
